@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+  }
+.rev{
+display: flex;
+flex-direction: column-reverse;
+}
+
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+
+.navbar-nav a{
+  text-align: center;
+
+}
+
+  .ilu{
+    padding-top: 25%;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+ .button{
+   background-color: red;
+ }
+  
+.bg {
+    /* The image used */
+    background-image: url(./images/hpbg_1.png);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.nav-item{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    margin : 10px ;
+}
+.navbar-brand{
+  padding-left: 20px;
+}
+@media (max-width: 600px) {
+  .navbar-brand{
+    padding-left: 0px;
+  }
+}
+.hvr-underline-from-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .aus::before{
+    background: #DB4437;
+  }
+  .events::before{
+    background: #4285F4;
+  }
+  .team::before{
+    background: #F4B400;
+  }
+  .cus::before{
+    background: #0F9D58;
+  }
+  .hvr-underline-from-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    
+    height: 3px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
+    left: 0;
+
+/*
+#DB4437 red
+#4285F4 blue
+#F4B400 yellow
+#0F9D58 green
+*/}

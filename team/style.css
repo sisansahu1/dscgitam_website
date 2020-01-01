@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text&display=swap');
+.ht{
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 60px;
+  
+  
+}
+.dan
+  {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.sucneha
+  {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    width: 30x; height: 30px;
+}
+.blu{
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.suc
+  {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    
+}
+.war{
+  
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+
+
+}
+.gr
+{
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+
+
+.anyClass {
+  height:675px;
+  overflow-y: scroll;
+  
+}
+
+.tt{
+  color: #8bc34a;
+}
+
+.anyClass::-webkit-scrollbar {
+  display: none;
+}
+
+/* end of social new animation*/
+body {
+
+
+  height: 100%;
+  background: #fafafa;
+}
+
+.fa{
+  font-size: 20px;
+}
+
+.social-link {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+ 
+  
+}
+.git:hover{
+  color:black;
+}
+.lin:hover{
+  color: #0e76a8;
+}
+.ins:hover{
+  color: #E1306C;
+}
+.twi:hover{
+  color: #00acee ;
+}
+
+.progress {
+  height: 5px;
+}
+
+body, html {
+    height: 100%;
+  }
+
+
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+
+.navbar-nav a{
+  text-align: center;
+
+}
+
+  .ilu{
+    padding-top: 25%;
+    padding-right: 5%;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+ .button{
+   background-color: red;
+ }
+  
+.bg {
+    /* The image used */
+    background-image: url(./images/hpbg_1.png);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.nav-item{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    margin : 10px ;
+}
+.navbar-brand{
+  padding-left: 20px;
+}
+@media (max-width: 600px) {
+  .navbar-brand{
+    padding-left: 0px;
+  }
+}
+.hvr-underline-from-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .aus::before{
+    background: #DB4437;
+  }
+  .events::before{
+    background: #4285F4;
+  }
+  .team::before{
+    background: #F4B400;
+  }
+  .cus::before{
+    background: #0F9D58;
+  }
+  .hvr-underline-from-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    
+    height: 3px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
+    left: 0;
+
+/*
+#DB4437 red
+#4285F4 blue
+#F4B400 yellow
+#0F9D58 green
+*/}

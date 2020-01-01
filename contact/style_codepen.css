@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+body .container1{
+  
+  font-family: 'Source Code Pro', monospace;
+  display: flex;
+  height: 35vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+body .container {
+  padding-top: 20px;
+  text-align: center;
+  max-width: 550px;
+}
+.page-text{
+  background-color: white;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.social-container {
+  position: relative;
+  display: inline-block;
+  width: 164px;
+  height: 36px;
+  -webkit-perspective: 300px;
+          perspective: 300px;
+  font-size: 24px;
+  margin: 8px;
+}
+.social-container:nth-child(5){
+  position: relative;
+  display: inline-block;
+  width: 285px;
+  height: 36px;
+  -webkit-perspective: 300px;
+          perspective: 300px;
+  font-size: 24px;
+  margin: 8px;
+
+}
+.social-container .social-cube {
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.333s;
+  -webkit-transform: translateZ(-18px);
+          transform: translateZ(-18px);
+}
+.social-container .social-cube .front, .social-container .social-cube .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: background 0.333s;
+}
+.social-container .social-cube .front {
+  -webkit-transform: rotateX(0deg) translateZ(18px);
+          transform: rotateX(0deg) translateZ(18px);
+}
+.social-container .social-cube .bottom {
+  -webkit-transform: rotateX(-90deg) translateZ(18px);
+          transform: rotateX(-90deg) translateZ(18px);
+}
+.social-container:hover .social-cube {
+  -webkit-transform: translateZ(-18px) rotateX(90deg);
+          transform: translateZ(-18px) rotateX(90deg);
+}
+
+.social-container.twitter .social-cube .front, .social-container.twitter .social-cube .back {
+  background: #1DA1F2;
+}
+.social-container.twitter .social-cube .bottom {
+  background: #0d7eff;
+}
+.social-container.twitter:hover .social-cube .bottom {
+  background: #4099FF;
+}
+.social-container.twitter:hover .social-cube .front {
+  background: #73b4ff;
+}
+.social-container.facebook .social-cube .front, .social-container.facebook .social-cube .back {
+  background: #3b5998;
+}
+.social-container.facebook .social-cube .bottom {
+  background: #2d4373;
+}
+.social-container.facebook:hover .social-cube .bottom {
+  background: #3b5998;
+}
+.social-container.facebook:hover .social-cube .front {
+  background: #4c70ba;
+}
+.social-container.youtube .social-cube .front, .social-container.youtube .social-cube .back {
+  background: #CC181E;
+}
+.social-container.youtube .social-cube .bottom {
+  background: #9e1317;
+}
+.social-container.youtube:hover .social-cube .bottom {
+  background: #CC181E;
+}
+.social-container.youtube:hover .social-cube .front {
+  background: #e73036;
+}
+.social-container.github .social-cube .front, .social-container.github .social-cube .back {
+  background: #767676;
+}
+.social-container.github .social-cube .bottom {
+  background: #5d5d5d;
+}
+.social-container.github:hover .social-cube .bottom {
+  background: #767676;
+}
+.social-container.github:hover .social-cube .front {
+  background: #909090;
+}
+.social-container.dribbble .social-cube .front, .social-container.dribbble .social-cube .back {
+  background: #E1306C;
+}
+.social-container.dribbble .social-cube .bottom {
+  background: #e51e6b;
+}
+.social-container.dribbble:hover .social-cube .bottom {
+  background: #ea4c89;
+}
+.social-container.dribbble:hover .social-cube .front {
+  background: #ef7aa7;
+}
+.social-container.codepen .social-cube .front, .social-container.codepen .social-cube .back {
+  background: #2867B2;
+}
+.social-container.codepen .social-cube .bottom {
+  background: rgb(31, 88, 158);
+}
+.social-container.codepen:hover .social-cube .bottom {
+  background: #2867B2;
+}
+.social-container.codepen:hover .social-cube .front {
+  background: rgb(40, 122, 221);
+}
